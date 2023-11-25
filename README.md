@@ -1,2 +1,2 @@
 # TextSpammer-Java
-An easy text spammer write in java (italian version)
+An easy text spammer wrote in java (italian version)
