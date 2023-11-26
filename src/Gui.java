@@ -69,9 +69,11 @@ public class Gui implements NativeKeyListener {
 	private void initialize() {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 687, 413);
+		frame.setTitle("JText Spam");
+		frame.setResizable(false);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
-
+		
 		JLabel lblNewLabel = new JLabel("Inserisci testo:");
 		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 22));
 		lblNewLabel.setBounds(33, 11, 151, 58);
